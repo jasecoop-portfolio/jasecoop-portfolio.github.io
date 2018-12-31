@@ -10,3 +10,76 @@ html,
 body {
   height: 100%;
 }
+
+.img-default {
+  margin: 100px 150px;
+  float: left;
+  text-align: center;
+}
+
+.img-web {
+  margin: 50px 150px;
+}
+
+.img-web img {
+  width: 100%;
+}
+
+.img-mobile {
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+.img-web img,
+.img-mobile img {
+    border: solid 1px #D7D7D7;
+    border-radius: 10px;
+    box-shadow: 0 0 19px 0 #B5BEC7;
+
+}
+
+.img-mobile {
+  margin: 50px 400px;
+}
+
+.img-mobile .desc,
+.img-web .desc {
+  margin-left: 10px;
+}
+
+.img-full {
+  margin: 0;
+}
+
+body.theme-fiorucci {
+  background: #F9FF00;
+}
+
+body.theme-cr {
+  background: #000;
+  color: #fff;
+}
+
+body.theme-cr a {
+  color: #fff;
+}
+
+video{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.video,
+audio {
+  left: -9999px;
+}
+
+audio {
+  position: fixed;
+}
+
+.video-active {
+  left: 0px;
+}

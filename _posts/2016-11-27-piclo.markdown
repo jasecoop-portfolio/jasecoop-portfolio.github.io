@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Piclo"
+postId: piclo
+theme: piclo
+date:   2016-11-28 18:57:44 +0000
+categories: jekyll update
+permalink: /project/piclo/
+images:
+  - image: Logo
+    description: Logo
+    imageUrl: http://dl.dropboxusercontent.com/s/iitmq8k1tyugotu/01.png?dl=0
+  - image: Home
+    description: Home
+    imageUrl: http://dl.dropboxusercontent.com/s/30iqtwtg0f1un9y/02.png?dl=0
+    class: img-web
+  - image: About
+    description: About
+    imageUrl: http://dl.dropboxusercontent.com/s/03omxe0gku0cugz/03.png?dl=0
+    class: img-web
+  - image: Product
+    description: Product
+    imageUrl: http://dl.dropboxusercontent.com/s/wz4h4568di9ig6j/04.png?dl=0
+    class: img-web
+  - image: About
+    description: About
+    imageUrl: http://dl.dropboxusercontent.com/s/5hbg9hu5fmczo67/05.png?dl=0
+    class: img-web
+
+---
+
+Piclo's mission is to build a more sustainable world by dencentralising energy distribution. Brought on to first brand the company, the website explored how to communicate a technical and complex idea, distilled into something graspeable with a quick visit to the website.

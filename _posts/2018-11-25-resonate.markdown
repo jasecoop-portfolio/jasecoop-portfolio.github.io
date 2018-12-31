@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Resonate"
+postId: resonate
+theme: resonate
+date:   2016-11-31 18:57:44 +0000
+permalink: /project/resonate/
+images:
+  - image: Screenshot
+    description: Resonate logo
+    imageUrl: http://dl.dropboxusercontent.com/s/zs0bjrxkj2sep1u/01.png
+  - image: Visuals
+    description: Poster campaign using Resonate's manifesto.
+    imageUrl: http://dl.dropboxusercontent.com/s/eei9gsosvckucwz/02.png
+  - image: User flow
+    imageUrl: http://dl.dropboxusercontent.com/s/zyfv4b13yi7auiz/03.png?dl=0
+  - image: website
+    description: Logged-out home page
+    imageUrl: http://dl.dropboxusercontent.com/s/ave5o909lasj43c/04.png?dl=0
+    class: img-web
+  - image: website
+    description: User profile
+    imageUrl: http://dl.dropboxusercontent.com/s/6l046uqa1gs3jsi/05.png?dl=0
+    class: img-web
+  - image: website
+    description: Library
+    imageUrl: http://dl.dropboxusercontent.com/s/kl6509z7dz8loc9/06.png?dl=0
+    class: img-web
+  - image: website
+    description: Album - Mobile
+    imageUrl: http://dl.dropboxusercontent.com/s/ull4yr404favpmb/07.png?dl=0
+    class: img-mobile
+  - image: website
+    description: Process
+    imageUrl: http://dl.dropboxusercontent.com/s/l8u7m8jjo5fej4k/08.png?dl=0
+    class: img-full
+
+---
+
+Resonate is a new music streaming service built on co-operative business values and blockchain technology. With current music streaming services leaving small to medium sized artists underpaid and their art under valued, Resonate is building a fairer platform.
+
+This branding and product design project explored what our new co-owned digital utilities of the future look and work like.

@@ -6,6 +6,7 @@ postId: overly
 date:   2016-11-29 18:57:44 +0000
 categories: jekyll update
 permalink: /project/overly/
+published: false
 images:
   - image: Logo
     description: Logo for Overly. Using the javascript, the logo in use on the site would follow your mouse, like a beacon or radar in search of artists.

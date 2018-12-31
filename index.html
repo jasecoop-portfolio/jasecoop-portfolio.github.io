@@ -2,180 +2,39 @@
 layout: default
 ---
 
-<div class="container mb5 overflow-hidden">
-  <div class="pv5 pl4">
-    <h1 class="mb0">
-      <a href="/" class="noAnchorStyle">Jase Coop</a>
-    </h1>
-    <h2 class="fCaps mt0">Design, brand + code</h2>
+
+<div class="pa3">
+  <div class="f1">
+    <a href="/">
+      Jase Coop
+    </a>
   </div>
 
-  <div class="mb5 w-100 w-50-ns fr-ns relative overflow-hidden">
-    <div class="fHorz pl4 pb1 o5">
-      Selected Work
-    </div>
-    <div class="pl4">
-      {% for post in site.posts %}
-        <div class="mb2"><a href="{{post.url}}" class="fBigLink">{{ post.title }}</a></div>
-      {% endfor %}
-    </div>
+  <div class="f1 fixed bottom-1 z-1">
+    {% for post in site.posts %}
+      <div class="mb2 link" data-postId="{{post.postId}}"><a href="{{post.url}}">{{ post.title }}</a></div>
+    {% endfor %}
+    <div class="mb2 o-20">Hyperdub</div>
+    <div class="mb2 o-20">LuckyMe</div>
+    <div class="mb2 o-20">NTS</div>
+    <div class="mb2 o-20">Nike / WK</div>
+    <div class="mb2 o-20">Adidas</div>
+    <div class="mb2 o-20">Jaguar Land Rover</div>
+    <div class="mb2 o-20">FutureGov</div>
   </div>
 
-
-  <div class="w-100">
-
-    <div class="w-100 w-50-ns fl-ns relative overflow-hidden">
-      <div class="fl overflow-hidden">
-        <div class="fHorz pl4 pb1 o5">
-          About
-        </div>
-        <div class="pl4 pr5">
-          <p class="mt0">I’m Jase Coop, a designer and developer based in London.</p>
-
-          <p>I’m available for the design, development and branding of digital products, services and brands.</p>
-
-          <p>My design process is user-centered and I’m a fan of the Jobs To Be Done framework in order to establish and prioritise user, business and techonology objectives.</p>
-
-          <p>As a designer and developer, my role varies from project to project. Many projects involve me implementing the front-end code I’ve designed. In some scenarios this might be me designing and building prototypes. In others, designing and building out a custom CMS. Whereas often I'm solely a designer, collaborating closely with development teams.</p>
-
-          <p>Please get in touch for more information on my branding, design and development process.</p>
-
-        </div>
-      </div>
+{% for post in site.posts %}
+<div class="fixed w-100 h-100 tc z-0 video top-0" id="video-{{post.postId}}" >
+  <div class="hide w-100 h-100 fixed"></div>
+<video class="dib" width="400" height="400" autoplay muted>
+  <source src="/assets/images/JC_HERO_{{post.postId}}.mp4" type="video/mp4">
+</video>
+</div>
+    {% endfor %}
 
 
-      <div class="mt5 fl overflow-hidden relative mb0-ns">
-        <div class="fHorz pl4 pb1 o5">
-          Contact
-        </div>
+<audio controls>
+  <source src="/assets/images/button.mp3" type="audio/mpeg">
+</audio>
 
-        <div class="pl4 pr5">
-          <p>For work enquires, please get in touch. I’d be happy to run you more through my process on previous projects and discuss more about how I might fit into your team over coffee.</p>
-          <a href="mail-to:jase@jasecoop.com" class="fBigLink">jase@jasecoop.com </a>
-        </div>
-      </div>
-
-    <div class="w-100 w-40-ns relative fl-ns mt5">
-      <div class="fHorz pl4 pb1 o5">
-        Featured
-      </div>
-      <div class="pl4">
-        <div class="mb3">
-          <div class="f4">Hover States</div>
-        </div>
-
-        <div class="mb3">
-          <div class="f4">Brutalist Websites</div>
-        </div>
-
-        <div class="mb3">
-          <div class="f4">Sleek Magazine</div>
-        </div>
-
-        <div class="mb3">
-          <div class="f4">Hypebeast</div>
-        </div>
-
-        <div class="mb3">
-          <div class="f4">Protein</div>
-        </div>
-
-        <div class="mb3">
-          <div class="f4">Mixmag</div>
-        </div>
-
-        <div class="mb3">
-          <div class="f4">Dummy Mag</div>
-        </div>
-
-        <div class="mb3">
-          <div class="f4">Clash Music</div>
-        </div>
-      </div>
-    </div>
-
-    </div>
-
-
-
-    <div class="w-100 w-40-ns relative fl-ns">
-      <div class="fHorz pl4 pb1 o5">
-        Clients
-      </div>
-      <div class="pl4">
-        <div class="mb3">
-          <div class="f4">Fiorucci</div>
-          <div class="fCaps">2017/2018</div>
-        </div>
-
-        <div class="mb3">
-          <div class="f4">LuckyMe</div>
-          <div class="fCaps">2017-2018</div>
-        </div>
-
-        <div class="mb3">
-          <div class="f4">NUXXE</div>
-          <div class="fCaps">2017</div>
-        </div>
-
-        <div class="mb3">
-          <div class="f4">Rainmaking / startupbootcamp.org</div>
-          <div class="fCaps">2016</div>
-        </div>
-        <div class="mb3">
-          <div class="f4">Circadian Rhythms</div>
-          <div class="fCaps">Current</div>
-        </div>
-        <div class="mb3">
-          <div class="f4">Jaguar Land Rover</div>
-          <div class="fCaps">2015 / 2016</div>
-        </div>
-        <div class="mb3">
-          <div class="f4">GoodYears Records</div>
-          <div class="fCaps">2016</div>
-        </div>
-        <div class="mb3">
-          <div class="f4">Open Utility</div>
-          <div class="fCaps">2015</div>
-        </div>
-        <div class="mb3">
-          <div class="f4">Overly / Richard Antwi</div>
-          <div class="fCaps">2015</div>
-        </div>
-        <div class="mb3">
-          <div class="f4">Silicon Milk Roundabout</div>
-          <div class="fCaps">2015</div>
-        </div>
-        <div class="mb3">
-          <div class="f4">Makeshift</div>
-          <div class="fCaps">2014</div>
-        </div>
-        <div class="mb3">
-          <div class="f4">FutureGov</div>
-          <div class="fCaps">2012</div>
-        </div>
-        <div class="mb3">
-          <div class="f4">Curventa</div>
-          <div class="fCaps">2011</div>
-        </div>
-         <div class="mb3">
-          <div class="f4">PDD</div>
-          <div class="fCaps">2010</div>
-        </div>
-        <div class="mb3">
-          <div class="f4">Salomon</div>
-          <div class="fCaps">2010</div>
-        </div>
-         <div class="mb3">
-          <div class="f4">Ellesse (Pentland)</div>
-          <div class="fCaps">2009</div>
-        </div>
-         <div class="mb3">
-          <div class="f4">Speedo</div>
-          <div class="fCaps">2009</div>
-        </div>
-      </div>
-    </div>
-
-  </div>
 </div>

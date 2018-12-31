@@ -1,17 +1,23 @@
 body {
-  font-family: 'NittiGrotesk';
+  font-family: 'Graphik Regular';
 }
 
-h1, h2, h3, h4, h5 {
-  font-size: 16px;
-  font-family: 'NittiGrotesk-Bold';
+
+.f1,.f2,.f3,.f4,.f5,.f6,.f7 {
+  font-family: 'Graphik Regular';
+  font-weight: normal;
 }
 
-.f4 {
-  font-size: 16px;
-  font-family: 'NittiGrotesk-Bold';
-  letter-spacing: 1px;
+
+.f7 {
+  font-size: 11px;
 }
+
+
+a {
+  color: #000;
+}
+
 
 .fCaps {
   text-transform: uppercase;
@@ -20,16 +26,19 @@ h1, h2, h3, h4, h5 {
   letter-spacing: 1px;
 }
 
+
 p {
   padding-top: 0;
   margin-top: 0;
 }
+
 
 .fHorz {
   text-transform: uppercase;
   font-family: 'NittiGrotesk';
   font-size: 12px;
 }
+
 
 .fBigLink {
   font-size: 25px;
@@ -39,10 +48,12 @@ p {
   position: relative;
 }
 
+
 .fBigLink:hover {
   color: #2C2F32;
   cursor: pointer;
 }
+
 
 .fBigLink:hover:after {
   content: "";
@@ -56,15 +67,18 @@ p {
   z-index: -1;
 }
 
+
 .fBigLink-active {
   color: #2C2F32;
 }
+
 
 .noAnchorStyle {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
+
 
 .noAnchorStyle:hover {
   opacity: .5;

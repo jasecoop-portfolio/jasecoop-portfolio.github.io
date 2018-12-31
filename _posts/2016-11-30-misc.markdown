@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Miscellaneous"
+postId: miscellaneous
+theme: miscellaneous
+date:   2016-11-25 18:57:44 +0000
+permalink: /project/miscellaneous/
+images:
+  - image: Nazar - Enclave | Artwork
+    description: Nazar - Enclave, Hyperdub | Artwork
+    imageUrl: http://dl.dropboxusercontent.com/s/6n41zjy5vzkgue9/01.png?dl=0
+  - image: Nazar logo
+    description: Nazar, Hyperdub | Logo
+    imageUrl: http://dl.dropboxusercontent.com/s/xr3amfiv83zqrph/02.png?dl=0
+  - image: Last Japan - Luna, Coyote Records | Artwork
+    description: Last Japan - Luna, Coyote Records | Artwork
+    imageUrl: http://dl.dropboxusercontent.com/s/iw12euen1rqgtvk/03.png?dl=0
+  - image: Last Japan - Luna, Coyote Records | Poster
+    description: Last Japan - Luna, Coyote Records | Poster
+    imageUrl: http://dl.dropboxusercontent.com/s/tq045jj29nbbox7/04.png?dl=0
+  - image: Cou Cou Chloe - Erika Jane, NUXXE | Artwork/typography
+    description: Cou Cou Chloe - Erika Jane, NUXXE | Artwork/typography
+    imageUrl: http://dl.dropboxusercontent.com/s/g1gf1t9m2n9an2o/05.png?dl=0
+  - image: Circadian Rhythms | Art direction
+    description: Circadian Rhythms | Art direction
+    imageUrl: http://dl.dropboxusercontent.com/s/hjqe3d5jvfbc5j4/06.jpg?dl=0
+  - image: Blackwax - Faded Hearing, Circadian Rhythms | Artwork
+    description: Blackwax - Faded Hearing, Circadian Rhythms | Artwork
+    imageUrl: http://dl.dropboxusercontent.com/s/c77ifc9f10u5zkr/07.png?dl=0
+    class: img-web
+
+
+---
+
+

@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "Fiorucci"
+postId: fiorucci
+theme: fiorucci
+date:   2016-11-29 18:57:44 +0000
+categories: jekyll update
+permalink: /project/fiorucci/
+images:
+  - image: Website
+    description: Fiorucci landing page
+    imageUrl: http://dl.dropboxusercontent.com/s/sisjvl3kw7uqrne/01.png?dl=0
+    class: img-web
+  - image: Pop-up store
+    description: Pop-up store
+    imageUrl: http://dl.dropboxusercontent.com/s/o07nh68e4pn4i0b/02.png?dl=0
+    class: img-web
+  - image: Pop-up store
+    description: Pop-up store
+    imageUrl: http://dl.dropboxusercontent.com/s/y6yj2zuofu8yh89/03.png?dl=0
+    class: img-mobile
+  - image: Pop-up store product
+    description: Pop-up store product
+    imageUrl: http://dl.dropboxusercontent.com/s/amt1j3wsvmvixq7/04.png?dl=0
+    class: img-web
+  - image: Pop-up store checkout
+    description: Pop-up store checkout
+    imageUrl: http://dl.dropboxusercontent.com/s/a4jrlt02ys2b4is/05.png?dl=0
+    class: img-web
+  - image: Fiorucci.com
+    description: Fiorucci.com
+    imageUrl: http://dl.dropboxusercontent.com/s/vhp0my8jhgwnlur/06.png?dl=0
+    class: img-web
+  - image: Editorial
+    description: Editorial
+    imageUrl: http://dl.dropboxusercontent.com/s/2fx2w9lhv7p37c8/07.png?dl=0
+    class: img-web
+  - image: Checkout
+    description: Checkout
+    imageUrl: http://dl.dropboxusercontent.com/s/y8z4hov79gxgcsf/08.png?dl=0
+    class: img-web
+  - image: Checkout
+    description: Checkout
+    imageUrl: http://dl.dropboxusercontent.com/s/8so77qk50yoaw4n/09.png?dl=0
+    class: img-web
+
+---
+In 2017 Fiorucci re-launched with a new website and store in Soho, London. With a 2 month delay of the e-commerce website expected I was brought in to design and build a tempoary landing-page and accompanying pop-up store. Moving forward, we looked into how to bring in certain elements of the landing page and pop-up store in the new e-commerce website.
+
