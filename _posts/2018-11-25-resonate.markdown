@@ -5,6 +5,7 @@ postId: resonate
 theme: resonate
 date:   2016-11-31 18:57:44 +0000
 permalink: /project/resonate/
+hero: http://dl.dropboxusercontent.com/s/2md78js0kmfa7pt/JC_HERO_RESONATE.mp4?dl=0
 images:
   - image: Screenshot
     description: Resonate logo

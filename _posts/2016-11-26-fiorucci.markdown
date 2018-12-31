@@ -6,6 +6,7 @@ theme: fiorucci
 date:   2016-11-29 18:57:44 +0000
 categories: jekyll update
 permalink: /project/fiorucci/
+hero: http://dl.dropboxusercontent.com/s/svkzwo6lx3micif/JC_HERO_FIORUCCI.mp4?dl=0
 images:
   - image: Website
     description: Fiorucci landing page

@@ -6,6 +6,7 @@ theme: piclo
 date:   2016-11-28 18:57:44 +0000
 categories: jekyll update
 permalink: /project/piclo/
+hero: http://dl.dropboxusercontent.com/s/vglvh79ekbhae6n/JC_HERO_PICLO.mp4?dl=0
 images:
   - image: Logo
     description: Logo

@@ -6,6 +6,7 @@ theme: cr
 date:   2016-11-27 18:57:44 +0000
 categories: jekyll update
 permalink: /project/cr/
+hero: http://dl.dropboxusercontent.com/s/xtep3gbrriu6pqy/JC_HERO_CR.mp4?dl=0
 images:
   - image: Logo
     description: Logo
