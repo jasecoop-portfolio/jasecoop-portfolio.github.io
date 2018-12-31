@@ -21,6 +21,16 @@ body {
   margin: 50px 150px;
 }
 
+@media only screen and (max-width: 600px) {
+.img-default {
+  margin: 100px 20px;
+}
+
+.img-web {
+  margin: 50px 20px;
+}
+}
+
 .img-web img {
   width: 100%;
 }
