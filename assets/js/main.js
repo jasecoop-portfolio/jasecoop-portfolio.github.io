@@ -11627,9 +11627,20 @@ $( document ).ready(function() {
     });
   });
 
-  $("#button").click(function() {
+  $(".links a").click(function(e) {
+      e.preventDefault();
+      var elId = $(this).attr('data-target');
+      var scrollto = $("#" + elId).offset().top;
       $('html, body').animate({
-          scrollTop: $("#myDiv").offset().top
+          scrollTop: scrollto
+      }, 2000);
+
+  });
+
+  $(".profile-link").click(function(e) {
+      e.preventDefault();
+      $('html, body').animate({
+          scrollTop: $("#profile").offset().top
       }, 2000);
   });
 

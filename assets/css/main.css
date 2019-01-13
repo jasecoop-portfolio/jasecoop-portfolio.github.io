@@ -5886,20 +5886,23 @@ a {
 
 #nazar-active .header,
 #nazar-active a,
-#nazar .desc {
+#nazar .desc,
+#nazar-active .links {
   color: #FFF !important;
 }
 
 
 #fiorucci-active .header,
 #fiorucci-active a,
-#fiorucci .desc {
+#fiorucci .desc,
+#fiorucci-active .links {
   color: #000 !important;
 }
 
 
 #resonate-active .header,
 #resonate-active a,
+#resonate-active .links,
 #resonate .desc {
   color: #000 !important;
 }
@@ -5907,6 +5910,7 @@ a {
 
 #cr-active .header,
 #cr-active a,
+#cr-active .links,
 #cr .desc {
   color: #FFF !important;
 }
@@ -5914,6 +5918,7 @@ a {
 
 #lj-active .header,
 #lj-active a,
+#lj-active .links,
 #lj .desc {
   color: #000 !important;
 }
@@ -5921,6 +5926,7 @@ a {
 
 #sp-active .header,
 #sp-active a,
+#sp-active .links,
 #sp .desc {
   color: #FFF !important;
 }
@@ -5928,6 +5934,7 @@ a {
 
 #profile-active .header,
 #profile-active a,
+#profile-active .links,
 #profile-active .desc {
   color: #000!important;
 }
