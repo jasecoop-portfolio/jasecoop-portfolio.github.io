@@ -3,38 +3,4 @@ layout: default
 ---
 
 
-<div class="pa3">
-  <div class="f1">
-    <a href="/">
-      Jase Coop
-    </a>
-  </div>
 
-  <div class="f1 fixed-ns bottom-1 mt5 mt0-ns z-1">
-    {% for post in site.posts %}
-      <div class="mb2 link" data-postId="{{post.postId}}"><a href="{{post.url}}">{{ post.title }}</a></div>
-    {% endfor %}
-    <div class="mb2 o-20">Hyperdub</div>
-    <div class="mb2 o-20">LuckyMe</div>
-    <div class="mb2 o-20">NTS</div>
-    <div class="mb2 o-20">Nike / WK</div>
-    <div class="mb2 o-20">Adidas</div>
-    <div class="mb2 o-20">Jaguar Land Rover</div>
-    <div class="mb2 o-20">FutureGov</div>
-  </div>
-
-{% for post in site.posts %}
-<div class="fixed w-100 h-100 tc z-0 video top-0" id="video-{{post.postId}}" >
-  <div class="hide w-100 h-100 fixed"></div>
-<video class="dib" width="400" height="400" autoplay muted>
-  <source src="{{post.hero}}" type="video/mp4">
-</video>
-</div>
-    {% endfor %}
-
-
-<audio controls>
-  <source src="/assets/images/button.mp3" type="audio/mpeg">
-</audio>
-
-</div>

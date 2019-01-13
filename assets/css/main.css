@@ -5551,9 +5551,7 @@ img { max-width: 100%; }
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px;
-  margin-left: 40px;
-  margin-right: 40px;
+  max-width: 800px;
 }
 
 
@@ -5564,14 +5562,8 @@ body {
 
 
 .img-default {
-  margin: 100px 150px;
   float: left;
   text-align: center;
-}
-
-
-.img-web {
-  margin: 50px 150px;
 }
 
 
@@ -5639,13 +5631,6 @@ body.theme-cr a {
 }
 
 
-video{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-
 .video,
 audio {
   left: -9999px;
@@ -5659,6 +5644,54 @@ audio {
 
 .video-active {
   left: 0px;
+}
+
+
+.video-content {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+
+.fiorucci {
+  background: #83FF00;
+}
+
+
+.link a,
+header p {
+  -webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+}
+
+
+.project-active {
+  font-size: 60px;
+  letter-spacing: -5px;
+}
+
+
+.hero-vid,
+.vid-play {
+  width: 600px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.vid-play {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  cursor: pointer;
+}
+
+
+#resonate .container > div {
+  margin-bottom: 80px;
 }
 
 
@@ -5747,24 +5780,31 @@ audio {
   font-style: normal; }
 
 
+@font-face {
+  font-family: 'Propos Regular';
+  src: url('../fonts/Propos-Regular.eot');
+  src: url('../fonts/Propos-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Propos-Regular.woff2') format('woff2'),
+  url('../fonts/Propos-Regular.woff') format('woff'),
+  url('../fonts/Propos-Regular.svg#Propos-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+
 body {
-  font-family: 'Graphik Regular';
+  font-family: 'Propos Regular';
+  font-size: 10px;
 }
 
 
 .f1,.f2,.f3,.f4,.f5,.f6,.f7 {
-  font-family: 'Graphik Regular';
+  font-family: 'Propos Regular';
   font-weight: normal;
 }
 
 
 .f7 {
   font-size: 11px;
-}
-
-
-a {
-  color: #000;
 }
 
 
@@ -5831,6 +5871,70 @@ p {
 
 .noAnchorStyle:hover {
   opacity: .5;
+}
+
+
+.header, .links a {
+  color: #fff;
+}
+
+
+a {
+  color: #fff;
+}
+
+
+#nazar-active .header,
+#nazar-active a,
+#nazar .desc {
+  color: #FFF !important;
+}
+
+
+#fiorucci-active .header,
+#fiorucci-active a,
+#fiorucci .desc {
+  color: #000 !important;
+}
+
+
+#resonate-active .header,
+#resonate-active a,
+#resonate .desc {
+  color: #000 !important;
+}
+
+
+#cr-active .header,
+#cr-active a,
+#cr .desc {
+  color: #FFF !important;
+}
+
+
+#lj-active .header,
+#lj-active a,
+#lj .desc {
+  color: #000 !important;
+}
+
+
+#sp-active .header,
+#sp-active a,
+#sp .desc {
+  color: #FFF !important;
+}
+
+
+#profile-active .header,
+#profile-active a,
+#profile-active .desc {
+  color: #000!important;
+}
+
+
+.bold {
+  font-weight: bold;
 }
 
 

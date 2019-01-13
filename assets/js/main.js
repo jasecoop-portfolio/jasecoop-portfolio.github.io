@@ -11604,6 +11604,41 @@ $( document ).ready(function() {
     }
   );
 
+
+  console.log('hi');
+  $.fn.isInViewport = function() {
+    var elementTop = $(this).offset().top;
+    var elementBottom = elementTop + $(this).outerHeight();
+
+    var viewportTop = $(window).scrollTop() - ($(window).height()/2);
+    var viewportBottom = viewportTop + $(window).height();
+
+    return elementBottom > viewportTop && elementTop < viewportBottom;
+  };
+
+  $(window).on('resize scroll', function() {
+    $('.project').each(function() {
+        var activeProject = $(this).attr('id');
+      if ($(this).isInViewport()) {
+        $('.project-active').removeClass('project-active');
+        $('#link-' + activeProject).addClass('project-active');
+        $('body').attr('id', activeProject + '-active');
+      }
+    });
+  });
+
+  $("#button").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#myDiv").offset().top
+      }, 2000);
+  });
+
+  $(".vid-play").click(function() {
+      $(".vid-play").hide();
+      $('.hero-vid').get(0).play();
+  });
+
+
 });
 
 

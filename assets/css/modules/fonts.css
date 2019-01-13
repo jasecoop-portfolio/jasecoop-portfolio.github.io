@@ -61,3 +61,12 @@
   url('../fonts/Graphik-Bold.svg#Graphik-Graphik-Bold') format('svg');
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Propos Regular';
+  src: url('../fonts/Propos-Regular.eot');
+  src: url('../fonts/Propos-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Propos-Regular.woff2') format('woff2'),
+  url('../fonts/Propos-Regular.woff') format('woff'),
+  url('../fonts/Propos-Regular.svg#Propos-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal; }

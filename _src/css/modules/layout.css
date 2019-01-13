@@ -1,9 +1,7 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px;
-  margin-left: 40px;
-  margin-right: 40px;
+  max-width: 800px;
 }
 
 html,
@@ -12,13 +10,8 @@ body {
 }
 
 .img-default {
-  margin: 100px 150px;
   float: left;
   text-align: center;
-}
-
-.img-web {
-  margin: 50px 150px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -76,12 +69,6 @@ body.theme-cr a {
   color: #fff;
 }
 
-video{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 .video,
 audio {
   left: -9999px;
@@ -93,4 +80,46 @@ audio {
 
 .video-active {
   left: 0px;
+}
+
+.video-content {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+
+.fiorucci {
+  background: #83FF00;
+}
+
+.link a,
+header p {
+  -webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+}
+
+.project-active {
+  font-size: 60px;
+  letter-spacing: -5px;
+}
+
+.hero-vid,
+.vid-play {
+  width: 600px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.vid-play {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  cursor: pointer;
+}
+
+#resonate .container > div {
+  margin-bottom: 80px;
 }

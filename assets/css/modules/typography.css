@@ -1,21 +1,17 @@
 body {
-  font-family: 'Graphik Regular';
+  font-family: 'Propos Regular';
+  font-size: 10px;
 }
 
 
 .f1,.f2,.f3,.f4,.f5,.f6,.f7 {
-  font-family: 'Graphik Regular';
+  font-family: 'Propos Regular';
   font-weight: normal;
 }
 
 
 .f7 {
   font-size: 11px;
-}
-
-
-a {
-  color: #000;
 }
 
 
@@ -83,3 +79,68 @@ p {
 .noAnchorStyle:hover {
   opacity: .5;
 }
+
+
+.header, .links a {
+  color: #fff;
+}
+
+
+a {
+  color: #fff;
+}
+
+
+#nazar-active .header,
+#nazar-active a,
+#nazar .desc {
+  color: #FFF !important;
+}
+
+
+#fiorucci-active .header,
+#fiorucci-active a,
+#fiorucci .desc {
+  color: #000 !important;
+}
+
+
+#resonate-active .header,
+#resonate-active a,
+#resonate .desc {
+  color: #000 !important;
+}
+
+
+#cr-active .header,
+#cr-active a,
+#cr .desc {
+  color: #FFF !important;
+}
+
+
+#lj-active .header,
+#lj-active a,
+#lj .desc {
+  color: #000 !important;
+}
+
+
+#sp-active .header,
+#sp-active a,
+#sp .desc {
+  color: #FFF !important;
+}
+
+
+#profile-active .header,
+#profile-active a,
+#profile-active .desc {
+  color: #000!important;
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
