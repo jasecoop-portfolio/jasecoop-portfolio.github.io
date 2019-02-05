@@ -2,5 +2,256 @@
 layout: default
 ---
 
+<div class="w-100 overflow-hidden fixed left-o z-4">
+  <div class="pa2 header ">
+    <p class="mb0">Jase Coop</p>
+    <p class="mb0">Designer</p>
+    <br/>
+    <p class="mb4 profile-link"><a href="">Profile</a></p>
+  </div>
+</div>
 
+
+<div class="w-100 fixed left-0">
+  <div class="pa2 pt6 white links">
+    <p class="mb0">SELECTED WORKS</p>
+    <p class="mb0"><a href="" data-target="nazar" id="link-nazar">Nazar</a></p>
+    <p class="mb0"><a href="" data-target="fiorucci" id="link-fiorucci">Fiorucci</a></p>
+    <p class="mb0"><a href="" data-target="resonate" id="link-resonate">Resonate</a></p>
+    <p class="mb0"><a href="" data-target="cr" id="link-cr">Circadian Rhythms</a></p>
+    <p class="mb0"><a href="" data-target="lj" id="link-lj">Last Japan</a></p>
+    <p class="mb0"><a href="" data-target="sp" id="link-sp">Shannen SP</a></p>
+  </div>
+</div>
+
+<div class="w-100 h-100 bg-black tc">
+  <div class="vid-play absolute z-2">
+    <img width="600" src="http://dl.dropboxusercontent.com/s/i1kw6njgtevpci0/PLAY.gif?dl=0" />
+  </div>
+  <video controls preload="auto" class="hero-vid dib z-1 relative" width="600" loop>
+    <source src="http://dl.dropboxusercontent.com/s/7jimayj84m822y8/JC_REEL_LO.mp4?dl=0" type="video/mp4">
+  </video>
+</div>
+<div class="w-100 db h5 bg-black">
+
+</div>
+
+<div id="nazar" class="project w-100 pt5 pb5 bg-black overflow-hidden">
+
+  <div class="container">
+      <div class="w-100 mb5 overflow-hidden">
+        <div class="w-50 fr desc">
+          <p class="mb0">Nazar - Enclave</p>
+          <p class="mb0">Hyperdub</p>
+          <p class="mb0">2018</p>
+        </div>
+      </div>
+      <div class="fl">
+        <img class="w-100 mb4" src="http://dl.dropboxusercontent.com/s/fsy5dd1vw15w9gl/NAZAR_01.jpg?dl=0">
+        <img class="w-100 mb4" src="http://dl.dropboxusercontent.com/s/tk3664p78x9c365/NAZAR_02.jpg?dl=0">
+        <img class="w-100 mb4" src="http://dl.dropboxusercontent.com/s/dtgtphuvw03swdt/NAZAR_03.jpg?dl=0">
+      </div>
+      <div class="w-100 fl">
+        <div class="w-50 pa4 fl">
+          <video class="video-content" controls>
+            <source src="http://dl.dropboxusercontent.com/s/8ox9xdmjapx9zzi/NAZAR_04.mp4?dl=0" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="w-50 pa4 fl">
+          <video class="video-content" controls>
+            <source src="http://dl.dropboxusercontent.com/s/tanyhub393hdcuh/NAZAR_05.mp4?dl=0" type="video/mp4">
+          </video>
+        </div>
+
+      </div>
+  </div>
+</div>
+
+<div id="fiorucci" class="project  w-100 pt5 pb5 fiorucci overflow-hidden">
+  <div class="container">
+    <div class="fl">
+      <div class="w-100 mb5 overflow-hidden">
+        <div class="w-50 fr desc">
+          <p class="mb0">Fiorucci</p>
+          <p class="mb0">2017</p>
+          <p class="mb0">Art direction, design, development</p>
+        </div>
+      </div>
+      <img class="w-100 mb4" src="http://dl.dropboxusercontent.com/s/lmn05ton4bm5deo/FIORUCCI_1.jpg?dl=0">
+
+<video class="video-content pb4" class="video class="video-content" w-100 mb5" poster="http://assets.hoverstat.es/uploads/website_videos/5916/98c49f58-8779-40bb-b75a-30c962b006a3_full_poster.png" loop="" muted="" autoplay style="opacity: 1;"><source src="http://assets.hoverstat.es/uploads/website_videos/5916/98c49f58-8779-40bb-b75a-30c962b006a3_full_mp4.mp4" type="video/mp4" ></video>
+
+      <img class="w-100 mb4" src="http://dl.dropboxusercontent.com/s/79ls5oqm9danpla/FIORUCCI_2.jpg?dl=0">
+      <img class="w-100 mb4" src="http://dl.dropboxusercontent.com/s/0842brsjqhphk8m/FIORUCCI_3.jpg?dl=0">
+    </div>
+  </div>
+</div>
+
+
+{% for post in site.posts %}
+  {% if post.title == "Resonate" %}
+    <div id="resonate" class="project w-100 pt5 pb5 resonate overflow-hidden">
+
+    <div class="container">
+      <div class="w-100 mb5 overflow-hidden">
+        <div class="w-50 fr desc">
+          <p class="mb0">Resonate</p>
+          <p class="mb0">2018</p>
+          <p class="mb0">Branding, art direction, product</p>
+        </div>
+      </div>
+      {% for image in post.images %}
+        <div data-desc="{{image.description}}" class="img-default {{image.class}}">
+          <img src="{{image.imageUrl}}" />
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
+
+
+<div id="cr" class="project w-100 pt5 pb5 cr overflow-hidden" style="background: #202024;">
+  <div class="container pt5 pb5">
+
+    <div class="fl">
+
+      <div class="w-100 mb5 overflow-hidden">
+        <div class="w-50 fr desc">
+          <p class="mb0">Circadian Rhythms</p>
+          <p class="mb0">Branding, art direction, design</p>
+          <p class=""><a href="http://circadian-rhythms.com">Circadian Rhythms</a></p>
+        </div>
+      </div>
+
+      <img class="w-100 mb5" src="http://dl.dropboxusercontent.com/s/irlrvd9ekub76uf/CR_01.jpg?dl=0">
+
+      <img class="w-100 mb5" src="http://dl.dropboxusercontent.com/s/lbik6t8xpsrt7lk/CR_02.jpg?dl=0">
+
+      <img class="w-100 mb5" src="http://dl.dropboxusercontent.com/s/8dkrim6z1ayuuoe/CR_04.jpg?dl=0">
+
+      <div class="w-100 img-web">
+        <img class="w-100 mb5" src="http://dl.dropboxusercontent.com/s/kh3eab5kgzj31yv/CR_03.jpg?dl=0">
+      </div>
+
+    </div>
+
+    <div class="w-100 fl">
+      <div class="w-50 pa4 fl">
+        <video class="video-content" controls>
+          <source src="http://dl.dropboxusercontent.com/s/nen0dgoupou913x/CR-FEB-mp4.mp4?dl=0" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="w-50 pa4 fl">
+        <video class="video-content" controls>
+          <source src="http://dl.dropboxusercontent.com/s/5b3e2lnnodx022e/CR-FEB-16-2017.mp4?dl=0" type="video/mp4">
+        </video>
+      </div>
+
+
+      <div class="w-50 pa4 fl">
+        <video class="video-content" controls>
+          <source src="http://dl.dropboxusercontent.com/s/maguywax7i8gv8r/CR-NTS-03-2016.mp4?dl=0" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="w-50 pa4 fl">
+        <video class="video-content" controls>
+          <source src="http://dl.dropboxusercontent.com/s/mm5f5wf6gzzqkh9/CR-april7.mp4?dl=0" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="lj" class="project w-100 pt5 pb5 lj overflow-hidden" style="background: #F1F1F1;">
+  <div class="container pt5 pb5">
+
+    <div class="fl">
+
+      <div class="w-100 mb5 overflow-hidden">
+        <div class="w-50 fr desc">
+          <p class="mb0">Last Japan - LUNA</p>
+          <p class="mb0">Art direction + design</p>
+        </div>
+      </div>
+
+      <img class="w-100 mb5" src="http://dl.dropboxusercontent.com/s/cnafkvd8cer5gih/LJ_01.jpg?dl=0">
+      <img class="w-100 mb5" src="http://dl.dropboxusercontent.com/s/al3iumb3x1ui4mm/LJ_02.jpg?dl=0">
+    </div>
+  </div>
+</div>
+
+<div id="sp" class="project w-100 pt5 pb5 sp overflow-hidden" style="background: #000;">
+  <div class="container pt5 pb5">
+
+    <div class="fl">
+
+      <div class="w-100 mb5 overflow-hidden">
+        <div class="w-50 fr desc">
+          <p class="mb0">Shannen SP</p>
+          <p class="mb0">Art direction + design</p>
+        </div>
+      </div>
+
+      <div class="w-50 pa4 fl">
+        <video class="video-content" controls>
+          <source src="http://dl.dropboxusercontent.com/s/rtvah9y8hcc30qk/NTS-IDST-DJHARAM_2.mp4?dl=0" type="video/mp4">
+        </video>
+      </div>
+
+
+      <div class="w-50 pa4 fl">
+        <video class="video-content" controls>
+          <source src="http://dl.dropboxusercontent.com/s/7vb5337wtkdibor/NTS_SSP_09-18-3.mp4?dl=0" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="w-50 pa4 fl">
+        <video class="video-content" controls>
+          <source src="http://dl.dropboxusercontent.com/s/rysgwxb0y92xtg4/NTS-SSP-CLUBCOUTURE4.mp4?dl=0" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="w-50 pa4 fl">
+        <video class="video-content" controls>
+          <source src="http://dl.dropboxusercontent.com/s/k6ehqdloehiqg80/NTS-SSP-DIS-FIG.mp4?dl=0" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="profile" class="project w-100 pt6 pb5 overflow-hidden" style="background: #fff;">
+  <div class="w-50 mb5 fr black">
+    <p class="mb0 bold">SERVICES</p>
+    <p class="mb0">Product design</p>
+    <p class="mb0">Art direction + graphic design</p>
+    <p class="mb0">Branding</p>
+    <p class="mb0">Front-end development</p>
+  </div>
+
+  <div class="w-100 mb5 db h1 fl"></div>
+  <div class="w-50 fr black">
+    <p class="mb0 bold">CLIENT LIST</p>
+    <p class="mb0">Nike / Weiden + Kennedy, 2018</p>
+    <p class="mb0">LuckyMe, 2018</p>
+    <p class="mb0">Hyperdub, 2018</p>
+    <p class="mb0">Fiorucci, 2017</p>
+    <p class="mb0">Adidas, 2017</p>
+    <p class="mb0">Open Utility / Piclo, 2017</p>
+    <p class="mb0">Circadian Rhythms, 2016-present</p>
+    <p class="mb0">Richard Antwi / Overly, 2016</p>
+    <p class="mb0">Jaguar Land Rover, 2016</p>
+    <p class="mb0">Makeshift, 2013-2014</p>
+    <p class="mb0">FutureGov, 2012-2014</p>
+  </div>
+  <div class="w-100 db h1 fl"></div>
+  <div class="w-50 fr black">
+    <p class="mb0 bold">CONTACT</p>
+    <p class="mb0">jase@jasecoop.com</p>
+  </div>
+</div>
 
