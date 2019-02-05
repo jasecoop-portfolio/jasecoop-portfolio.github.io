@@ -6,7 +6,7 @@ theme: jlr
 date:   2016-11-29 18:57:44 +0000
 categories: jekyll update
 permalink: /project/jaguarlandrover/
-published: false
+published: true
 images:
   - image: Screenshot
     description: Visuals of product design and front-end React Native iOS build.
