@@ -6,7 +6,6 @@ theme: jlr
 date:   2016-11-29 18:57:44 +0000
 categories: jekyll update
 permalink: /project/jaguarlandrover/
-published: true
 images:
   - image: Screenshot
     description: Visuals of product design and front-end React Native iOS build.
@@ -26,4 +25,4 @@ skills:
   - skill: Development
 ---
 
-As a member of Circadian Rhythms, a London based concept label, I lead on the design, art direction and development of the music and fashion releases put out by label.
+
